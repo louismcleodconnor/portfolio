@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Louis Connor | Senior IT Project Manager, Enterprise AI Adoption</title>
+  <meta name="description" content="Senior IT Project Manager delivering enterprise Microsoft Copilot, Power Platform and AI adoption programmes. Case studies, delivery approach and experience.">
+  <!-- Private by default: shared by link, not indexed. Delete this line to allow search engines. -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#4000ff">
+  <meta property="og:title" content="Louis Connor | Senior IT Project Manager">
+  <meta property="og:description" content="Enterprise AI adoption and Power Platform delivery. Case studies and delivery approach.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top" aria-label="Louis Connor, back to top"><span class="nav__dot" aria-hidden="true"></span>Louis Connor</a>
+    <nav class="nav__links" aria-label="Sections">
+      <a href="#approach">Approach</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn--small" id="nav-cv" href="assets/Louis-Connor-CV.pdf" download>CV (PDF)</a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-name">
+      <svg class="squiggle squiggle--a" viewBox="0 0 240 40" aria-hidden="true" focusable="false"><path d="M2 20 C 22 -2, 42 42, 62 20 S 102 -2, 122 20 S 162 42, 182 20 S 222 -2, 238 20" /></svg>
+      <svg class="squiggle squiggle--b" viewBox="0 0 240 40" aria-hidden="true" focusable="false"><path d="M2 20 C 22 -2, 42 42, 62 20 S 102 -2, 122 20 S 162 42, 182 20 S 222 -2, 238 20" /></svg>
+      <span class="blob blob--yellow" aria-hidden="true"></span>
+      <span class="blob blob--magenta" aria-hidden="true"></span>
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow" id="hero-eyebrow"></p>
+          <h1 id="hero-name"></h1>
+          <p class="hero__sub" id="hero-sub"></p>
+          <p class="hero__tag" id="hero-tag"></p>
+          <div class="hero__cta" id="hero-cta"></div>
+          <p class="hero__avail" id="hero-avail" hidden></p>
+        </div>
+        <aside class="facts" aria-label="Quick facts">
+          <h2 class="facts__title">Quick facts</h2>
+          <dl id="facts"></dl>
+        </aside>
+      </div>
+      <div class="wrap">
+        <ul class="stats" id="stats" aria-label="Headline results"></ul>
+      </div>
+    </section>
+
+    <section class="section" id="approach" aria-labelledby="approach-h">
+      <div class="wrap">
+        <p class="kicker">How I deliver</p>
+        <h2 id="approach-h">From first conversation to adopted solution</h2>
+        <p class="lede" id="approach-intro"></p>
+        <div class="map" id="map">
+          <div class="map__track" role="tablist" aria-label="Delivery stages" id="map-track"></div>
+          <div class="map__panel" id="map-panel" role="tabpanel" tabindex="0" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="projects" aria-labelledby="projects-h">
+      <div class="wrap">
+        <p class="kicker">Selected work</p>
+        <h2 id="projects-h">Case studies</h2>
+        <p class="lede">Clients are described by sector. Filter by theme or by capability, then open a case study for the detail.</p>
+        <div class="filters" id="filters" role="group" aria-label="Filter by theme"></div>
+        <details class="caps" id="caps">
+          <summary>Filter by capability</summary>
+          <div class="caps__groups" id="caps-groups"></div>
+        </details>
+        <p class="results" id="results" role="status" aria-live="polite"></p>
+        <div class="grid" id="grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-h">
+      <div class="wrap">
+        <p class="kicker">Career</p>
+        <h2 id="experience-h">Experience</h2>
+        <div class="career" id="career" aria-label="Career timeline"></div>
+        <div class="role" id="role-panel" role="region" aria-live="polite" tabindex="-1"></div>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="credentials" aria-labelledby="cred-h">
+      <div class="wrap">
+        <p class="kicker">Qualifications</p>
+        <h2 id="cred-h">Credentials</h2>
+        <ul class="creds" id="creds"></ul>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-h">
+      <div class="wrap">
+        <p class="kicker">Get in touch</p>
+        <h2 id="contact-h">Let's talk about your programme</h2>
+        <div class="contact__cta" id="contact-cta"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__row">
+      <span id="footer-name"></span>
+      <span>Client names are withheld by agreement. Figures are from delivered work.</span>
+    </div>
+  </footer>
+
+  <dialog class="dlg" id="dlg" aria-labelledby="dlg-title">
+    <div class="dlg__bar">
+      <div class="dlg__nav">
+        <button class="iconbtn" id="dlg-prev" type="button" aria-label="Previous case study">&larr;</button>
+        <button class="iconbtn" id="dlg-next" type="button" aria-label="Next case study">&rarr;</button>
+      </div>
+      <button class="iconbtn" id="dlg-close" type="button" aria-label="Close case study">&times;</button>
+    </div>
+    <div class="dlg__body" id="dlg-body"></div>
+  </dialog>
+
+  <noscript>
+    <div class="wrap" style="padding:2rem">
+      <p>This portfolio needs JavaScript. You can read the full CV instead: <a href="assets/Louis-Connor-CV.pdf">Louis-Connor-CV.pdf</a>.</p>
+    </div>
+  </noscript>
+
+  <script src="data/portfolio.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
